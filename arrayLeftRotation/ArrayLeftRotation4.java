@@ -2,6 +2,9 @@ package arrayLeftRotation;
 
 import java.util.Arrays;
 
+/**
+ * @author Gourab
+ */
 public class ArrayLeftRotation4 {
     private static int[] leftRotate(int[] ar, int d) {
         int n = ar.length;
