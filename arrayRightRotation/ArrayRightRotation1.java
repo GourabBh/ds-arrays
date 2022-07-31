@@ -12,7 +12,7 @@ public class ArrayRightRotation1 {
             temp = ar[i];
             j = i;
             while (true) {
-                k = (j + n - d /* For Right Rotation, d simple becomes n - d */);
+                k = (j + n - d /* For Right Rotation, d simply becomes n - d */);
                 if (k >= n) {
                     k -= n;
                 }
